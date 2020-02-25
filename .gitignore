@@ -1,0 +1,26 @@
+.gradle
+build
+!gradle/wrapper/gradle-wrapper.jar
+gradle.properties
+toignore/
+target
+
+# Generated files
+bin/
+gen/
+out/
+classes/
+patches/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### VIM ###
+*~
+
+derby.log
+
+.DS_Store
