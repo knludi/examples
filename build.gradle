@@ -19,5 +19,6 @@ dependencies {
     testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.6.0'
     testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.6.0'
     testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: '5.6.0'
+    testImplementation("org.mockito:mockito-core:3.2.4")
     testImplementation("org.assertj:assertj-core:3.9.1")
 }
